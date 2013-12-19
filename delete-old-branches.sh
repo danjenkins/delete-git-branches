@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git fetch -p origin
+
 DAYS=$1
 
 if [ "$DAYS" == "" ]; then
